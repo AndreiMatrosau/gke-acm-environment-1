@@ -1,0 +1,19 @@
+---
+
+resources:
+- ../../../base/app-1
+
+namespace: app-1-overlay
+
+# annotation allows configmap reloading
+commonAnnotations:
+  configmap.reloader.stakater.com/reload: nginx-cm
+
+configMapGenerator:
+- name: nginx-cm
+  behavior: replace
+  files:
+  - cm-index.html
+
+generatorOptions:
+  disableNameSuffixHash: true
