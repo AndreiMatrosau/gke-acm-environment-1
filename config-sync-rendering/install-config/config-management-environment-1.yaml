@@ -8,7 +8,3 @@ spec:
     secretType: none
     policyDir: overlays/environment-1
     syncWait: 60
-    policyController:
-      enabled: false
-    hierarchyController:
-      enabled: false
