@@ -1,7 +1,7 @@
 ---
 
 resources:
-- acm-gke-repo/base/app-1
+- ../../../../base/app-1
 
 namespace: app-1-overlay
 
