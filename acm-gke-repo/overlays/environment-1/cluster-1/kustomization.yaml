@@ -1,6 +1,6 @@
 # includes base reloader and then customized nginx-index-html
 
 resources:
-- acm-gke-repo/base/app-2/
+- ../../../base/app-2/
 - app-1/
 
