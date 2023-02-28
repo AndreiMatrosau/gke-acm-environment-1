@@ -6,5 +6,5 @@ spec:
     syncRepo: https://github.com/AndreiMatrosau/gke-acm-environment-1.git
     syncBranch: main
     secretType: none
-    policyDir: overlays/environment-1
+    policyDir: ../../overlays/environment-1/cluster-1
     syncWait: 60
