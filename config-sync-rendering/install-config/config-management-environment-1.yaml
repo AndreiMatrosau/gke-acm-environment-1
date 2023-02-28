@@ -3,7 +3,7 @@ spec:
   configSync:
     enabled: true
     sourceFormat: unstructured
-    syncRepo: https://github.com/andreimatrosau/gke-acm-environment-1.git
+    syncRepo: https://github.com/AndreiMatrosau/gke-acm-environment-1.git
     syncBranch: main
     secretType: none
     policyDir: overlays/environment-1
