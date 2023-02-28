@@ -1,6 +1,6 @@
 ---
 
-namespace: app-2-base
+namespace: reloader
 
 resources:
 - namespace.yaml

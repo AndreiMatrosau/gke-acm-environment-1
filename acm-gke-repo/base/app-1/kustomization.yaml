@@ -1,6 +1,6 @@
 ---
 
-namespace: app-1-base
+namespace: nginx-index
 
 resources:
 - namespace.yaml

@@ -3,7 +3,7 @@
 resources:
 - ../../../../base/app-1
 
-namespace: app-1-overlay
+namespace: nginx-index-reloader
 
 # annotation allows configmap reloading
 commonAnnotations:
