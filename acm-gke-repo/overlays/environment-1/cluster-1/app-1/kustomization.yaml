@@ -11,7 +11,7 @@ commonAnnotations:
 
 configMapGenerator:
 - name: nginx-cm
-  namespace: namaespace-1
+  namespace: namespace-1
   behavior: replace
   files:
   - cm-index.html
