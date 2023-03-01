@@ -1,6 +1,6 @@
 ---
 
-namespace: nginx-index
+namespace: namespace-1
 
 resources:
 - namespace.yaml
