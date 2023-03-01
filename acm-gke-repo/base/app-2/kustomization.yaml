@@ -1,6 +1,6 @@
 ---
 
-namespace: reloader
+namespace: namespace-2-base
 
 resources:
 - namespace.yaml

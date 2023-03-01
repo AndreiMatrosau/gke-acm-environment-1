@@ -9,7 +9,7 @@ resources:
 
 configMapGenerator:
 - name: nginx-cm
-  namespace: app-1-nginx
+  namespace: namespace-1-base
   files:
   - cm-index.html
 
