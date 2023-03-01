@@ -1,5 +1,0 @@
-# no namespaces allowed in rootsync
-
-resources:
-- acm-gke-repo/base/app-2
-
