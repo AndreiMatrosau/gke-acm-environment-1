@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-deployment
-  namespace: namaespace-1
+  namespace: namespace-1
   labels:
     version: v1
 spec:
