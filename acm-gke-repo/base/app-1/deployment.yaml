@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-deployment
-  namespace: namespace-1-base
+  namespace: default
   labels:
     version: v1
 spec:
@@ -19,6 +19,8 @@ spec:
       # avoid istio envoy auto-injection
       annotations:
         sidecar.istio.io/inject: "false"
+        # do not set here, instead allow overlays to define
+        #configmap.reloader.stakater.com/reload: nginx-cm
     spec:
       volumes:
       - name: nginx-homedir

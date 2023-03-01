@@ -1,13 +1,13 @@
 ---
 
-namespace: namespace-2-base
+namespace: reloader
 
 resources:
 - namespace.yaml
 - https://github.com/stakater/Reloader/deployments/kubernetes
 
 patches:
-# remove namespace from non-namespaced objects, which would throw error
+# use patch to remove namespace from non-namespaced objects, which would throw error
 - target:
     kind: "Cluster.*|ServiceAccount.*"
   patch: |-

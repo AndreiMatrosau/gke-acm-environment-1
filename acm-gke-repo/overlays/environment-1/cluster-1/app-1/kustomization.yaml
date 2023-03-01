@@ -1,11 +1,11 @@
----
+
 
 resources:
-- ../../../../base/app-1
+- ../../../base/nginx-index-html
 
-namespace: namespace-1-overlay
+namespace: nginx-index-reloader
 
-# annotation allows configmap reloading
+# add annotation that allows configmap reloading
 commonAnnotations:
   configmap.reloader.stakater.com/reload: nginx-cm
 
