@@ -1,6 +1,6 @@
 ---
 
-namespace: nginx-index
+namespace: namespace-app-1-base
 
 resources:
 - namespace.yaml
@@ -9,7 +9,7 @@ resources:
 
 configMapGenerator:
 - name: nginx-cm
-  namespace: default
+  namespace: namespace-base
   files:
   - cm-index.html
 
