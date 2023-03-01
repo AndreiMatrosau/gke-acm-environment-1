@@ -1,5 +1,5 @@
 # no namespaces allowed in rootsync
 
 resources:
-- ../../base/app-2
+- ../../../../base/app-2
 
