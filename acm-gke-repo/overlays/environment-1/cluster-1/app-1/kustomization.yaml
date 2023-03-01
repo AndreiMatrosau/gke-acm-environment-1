@@ -1,7 +1,7 @@
 
 
 resources:
-- ../../../base/nginx-index-html
+- ../../../base/app-1
 
 namespace: nginx-index-reloader
 
