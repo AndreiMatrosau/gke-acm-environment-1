@@ -9,12 +9,12 @@ namespace: namespace-app-1
 commonAnnotations:
   configmap.reloader.stakater.com/reload: nginx-cm
 
-# configMapGenerator:
-# - name: nginx-cm
-#   namespace: namespace-1
-#   behavior: replace
-#   files:
-#   - cm-index.html
+configMapGenerator:
+- name: nginx-cm
+  namespace: namespace-1
+  behavior: replace
+  files:
+  - cm-index.html
 
 generatorOptions:
   disableNameSuffixHash: true
